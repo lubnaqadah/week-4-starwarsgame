@@ -1,0 +1,58 @@
+	html{
+			background-image: url(/assets/images/Star-wars-wallpapers.jpg);
+		}
+		@font-face {
+			font-family: myFont;
+			src: url(/assets/DeathStar.otf);
+}
+		body{
+			max-width: 960px;
+			margin: auto;
+			text-align: center;
+			font-family: myFont;
+			letter-spacing: .6px;
+		}
+		h1{
+			font-size: 2.5em;
+		}
+		.fighters{
+			margin: auto;
+			float: left;
+			text-align: center;
+			border: 5px solid black;
+			height: auto
+		}
+		.green{
+			border: 5px solid green;
+		}
+		.brown{
+			border: 5px solid brown;		
+		}
+		
+		.fighters img{
+			margin: 0 10px;
+			width: 150px;
+			height: 150px
+		}
+		.container{
+			margin: auto;
+			display: inline-block
+		}
+		
+		.second{
+			margin-top: 20px;
+			width: 100%;
+		}
+		.second .fighters{
+			margin-left: 20%;
+		}
+		
+		.attacker{
+			width: 40%;
+			float: left
+		}
+		.defender{
+			width: 40%;
+			float: right
+		}
+		
