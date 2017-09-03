@@ -1,9 +1,9 @@
 	html{
-			background-image: url(/assets/images/Star-wars-wallpapers.jpg);
+			background-image: url(Star-wars-wallpapers.jpg);
 		}
 		@font-face {
 			font-family: myFont;
-			src: url(/assets/DeathStar.otf);
+			src: url(DeathStar.otf);
 }
 		body{
 			max-width: 960px;
