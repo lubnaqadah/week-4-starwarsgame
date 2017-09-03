@@ -91,7 +91,7 @@ $("#attack").on("click", function(){
 	};
 });
 
-$("#reset").on("click", function(){
+$(document).on("click","#reset", function(){
 	window.location.reload();
 });
 
